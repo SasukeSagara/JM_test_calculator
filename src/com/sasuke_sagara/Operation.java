@@ -4,7 +4,7 @@ public enum Operation {
     Addition("+"){
         public int execute(int arg1, int arg2){return arg1 + arg2;}
     },
-    Substraction("-") {
+    Subtraction("-") {
         public int execute(int arg1, int arg2){return arg1 - arg2;}
     },
     Multiplication("*"){

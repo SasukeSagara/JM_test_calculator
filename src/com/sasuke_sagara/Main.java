@@ -1,11 +1,6 @@
 package com.sasuke_sagara;
 
-import java.util.Properties;
-import java.util.PropertyResourceBundle;
 import java.util.Scanner;
-import java.util.TreeMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Main {
     private static final String description = "Создайте консольное приложение “Калькулятор”." +
@@ -33,12 +28,10 @@ public class Main {
         }
         Scanner in = new Scanner(System.in);
         Calculator calculator = new Calculator();
-        while(true){
-            System.out.print("Введите выражение: ");
-            String input = in.nextLine();
-            String result = calculator.calculate(new Expression(input));
-            System.out.println(String.format("%s = %s", input, result));
-        }
+        System.out.print("Введите выражение: ");
+        String input = in.nextLine();
+        String result = calculator.calculate(new Expression(input));
+        System.out.println(String.format("%s = %s", input, result));
     }
 
 }
