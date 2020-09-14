@@ -13,7 +13,7 @@ public class Converter {
         romanNumbersMap.put(100, "C");
         romanNumbersMap.put(90, "XC");
         romanNumbersMap.put(50, "L");
-        romanNumbersMap.put(40, "X");
+        romanNumbersMap.put(40, "XL");
         romanNumbersMap.put(10, "X");
         romanNumbersMap.put(9, "IX");
         romanNumbersMap.put(5, "V");
